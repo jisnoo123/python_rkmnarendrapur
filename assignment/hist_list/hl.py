@@ -1,7 +1,7 @@
 # Histogram to List
 
 class h_to_l():
-    def input(self):
+    def input_chars(self):
         self.hist = {}
         n = int(input('Enter number of characters: '))
 
@@ -24,7 +24,7 @@ class h_to_l():
     
 ob = h_to_l()
 
-ob.input()
+ob.input_chars()
 hist_list = ob.convert()
 
 print(f'Your list:\n{hist_list}')
